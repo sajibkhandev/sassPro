@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#EEF4F9',
+        'secondary': '#2C83BB',
+        'offwhite': '#FFFFFF',
+      },
+      fontFamily: {
+        'inter': ["Inter", "sans-serif"],
+        'rel': ["Raleway", "sans-serif"],
+        'roboto': ["Roboto", "sans-serif"],
+
+      }
+    },
   },
   plugins: [],
 }
