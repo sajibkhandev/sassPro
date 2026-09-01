@@ -3,7 +3,7 @@ import { FaAngleDown } from "react-icons/fa6";
 
 const ListItem = ({text,type,className}) => {
   return (
-    <li className={`text-base text-primary font-medium font-inter ${className}`}>{text}
+    <li className={`text-base text-primary font-medium font-inter cursor-pointer ${className}`}>{text}
     {
         type && <FaAngleDown className='inline ml-1'/>
     } 
